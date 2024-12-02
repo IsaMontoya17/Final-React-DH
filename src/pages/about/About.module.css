@@ -1,0 +1,102 @@
+.aboutPage {
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1e293b, #2dd4bf, #3b82f6, #8b5cf6, #d946ef);
+    background-size: 300% 300%;
+    animation: gradientShift 15s ease infinite;
+    color: #f5f5f5;
+    line-height: 1.8;
+    min-height: 100vh;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #50fa7b;
+    font-weight: bold;
+    text-shadow: 3px 3px #282828;
+    line-height: 1.8;
+}
+
+.description {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #f8f8f2;
+}
+
+.subtitle {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #8be9fd;
+    text-shadow: 2px 2px #000;
+    line-height: 1.8;
+}
+
+.featureList {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.featureList li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    color: #bd93f9;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+    line-height: 1.8;
+}
+
+.featureList li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+p {
+    color: #f8f8f2;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+em {
+    font-style: italic;
+    color: #ff79c6;
+}
+
+.picture {
+    max-height: 400px;
+    width: auto;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.pictureContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+body {
+    margin-top: 80px;
+}
