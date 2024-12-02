@@ -2,7 +2,7 @@
 
 ¡Bienvenido a la **Rick and Morty App**!  
 
-Este proyecto es una aplicación web que consume la [Rick and Morty API](https://rickandmortyapi.com/) para mostrar información sobre los personajes, ubicaciones y episodios de la famosa serie. Se desarrolló aplicando conocimientos de **Front End 3**, utilizando **Vite**, **React Router**, **module.css** para los estilos, y **Vitest** para las pruebas.
+Este proyecto es una aplicación web que consume la [Rick and Morty API](https://rickandmortyapi.com/) para mostrar información sobre los personajes de la famosa serie. Se desarrolló aplicando conocimientos de **Front End 3**, utilizando **Vite**, **React Router**, **module.css** para los estilos, y **Vitest** para las pruebas.
 
 ---
 
@@ -13,6 +13,7 @@ Este proyecto es una aplicación web que consume la [Rick and Morty API](https:/
 - **Diseño modular:** Uso de archivos `.module.css` para estilos específicos de componentes.
 - **Pruebas:** Componentes y funciones probados con **Vitest** y **Testing Library**.
 - **Renderizado rápido:** Configuración optimizada con **Vite** para un desarrollo ágil.
+- **Uso de hooks:** Implementación de hooks enseñados en clase, como **useState** para manejar estados locales, **useEffect** para realizar efectos secundarios y **useContext** para compartir datos globales en la aplicación.
 
 ---
 
@@ -23,13 +24,13 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 ### 1. Clona el repositorio
 
 ```bash
-git clone <URL-del-repo>
+git clone https://github.com/IsaMontoya17/Final-React-DH.git
 ```
 
 ### 2. Ingresa al directorio del proyecto
 
 ```bash
-cd nombre-del-proyecto
+cd Final-React-DH
 ```
 
 ### 3. Instala las dependencias
@@ -59,7 +60,7 @@ Abre tu navegador en [http://localhost:5173](http://localhost:5173) para ver la 
 
 ## 🧪 Pruebas
 
-Este proyecto utiliza Vitest, Testing Library y happy-dom para realizar pruebas unitarias y de integración. Asegúrate de haber instalado todas las dependencias necesarias.
+Este proyecto utiliza Vitest, Testing Library y happy-dom para realizar pruebas unitarias. Asegúrate de haber instalado todas las dependencias necesarias.
 
 ### Comando para ejecutar las pruebas
 
@@ -75,6 +76,7 @@ Este proyecto fue diseñado para reforzar los conceptos aprendidos en Front End 
  - Implementación de React Router para navegación entre vistas.
  - Estilización modular con module.css.
  - Pruebas de componentes, eventos y funcionalidades con Vitest y Testing Library.
+ - Uso de hooks.
 
 ## ✨ Autora
 Desarrollado por [@IsaMontoya17](https://github.com/IsaMontoya17).
